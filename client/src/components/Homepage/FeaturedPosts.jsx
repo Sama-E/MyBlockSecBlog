@@ -15,7 +15,7 @@ const FeaturedPosts = () => {
           className="rounded-3xl object-cover"
           w="895"
         />} */}
-        <Image src="featured1.jpeg" className="rounded-3xl object-cover" />
+        <Image src="featured1.jpeg" className="rounded-3xl object-cover" w="895" />
         {/* details */}
         <div className="flex items-center gap-4">
           <h1 className="font-semibold lg:text-lg">01.</h1>
@@ -45,7 +45,8 @@ const FeaturedPosts = () => {
         <div className="lg:h-1/3 flex justify-between gap-4">
           <Image
             src="featured2.jpeg"
-            className="rounded-3xl object-cover w-1/3 aspect-video"
+            className="rounded-3xl object-cover w-1/3 w-full h-full"
+            w="298"
           />
           {/* details and title */}
           <div className="w-2/3">
@@ -62,14 +63,15 @@ const FeaturedPosts = () => {
         {/* third */}
         <div className="lg:h-1/3 flex justify-between gap-4">
           <Image
-            src="featured2.jpeg"
-            className="rounded-3xl object-cover w-1/3 aspect-video"
+            src="featured3.jpeg"
+            className="rounded-3xl object-cover w-1/3 w-full h-full"
+            w="298"
           />
           {/* details and title */}
           <div className="w-2/3">
             {/* details */}
             <div className="flex items-center gap-4 text-sm lg:text-base mb-4">
-              <h1 className="font-semibold">02.</h1>
+              <h1 className="font-semibold">03.</h1>
               <Link to="/infrastructure" className="text-grey-800">Infrastructure</Link>
               <span className="text-grey-500 text-sm"> 2 days</span>
             </div>
@@ -80,14 +82,15 @@ const FeaturedPosts = () => {
         {/* fourth */}
         <div className="lg:h-1/3 flex justify-between gap-4">
           <Image
-            src="featured2.jpeg"
-            className="rounded-3xl object-cover w-1/3 aspect-video"
+            src="featured4.jpeg"
+            className="rounded-3xl object-cover w-1/3 w-full h-full"
+            w="298"
           />
           {/* details and title */}
           <div className="w-2/3">
             {/* details */}
             <div className="flex items-center gap-4 text-sm lg:text-base mb-4">
-              <h1 className="font-semibold">02.</h1>
+              <h1 className="font-semibold">04.</h1>
               <Link to="/infrastructure" className="text-grey-800">Infrastructure</Link>
               <span className="text-grey-500 text-sm"> 2 days</span>
             </div>
