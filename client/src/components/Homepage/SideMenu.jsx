@@ -1,5 +1,5 @@
 import React from 'react'
-import Search from '../components/SinglePost/Search';
+import Search from '../SinglePost/Search'
 
 const SideMenu = () => {
   return (
