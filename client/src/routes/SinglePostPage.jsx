@@ -4,6 +4,7 @@ import SideCategories from '../components/SinglePost/SideCategories'
 import PostMenuActions from '../components/SinglePost/PostMenuActions'
 import Image from '../components/Image'
 import Search from '../components/SinglePost/Search'
+import Comments from '../components/Comments/Comments'
 
 const SinglePostPage = () => {
   return (
@@ -171,8 +172,8 @@ const SinglePostPage = () => {
           <Search />
         </div>
       </div>
-      Comments
       {/* <Comments postId={data._id}/> */}
+      <Comments />
     </div>
   )
 }

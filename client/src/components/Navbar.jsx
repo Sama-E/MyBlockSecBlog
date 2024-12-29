@@ -65,7 +65,7 @@ const Navbar = () => {
         <Link to="/">About</Link>
         <SignedOut>
           <Link to="/login">
-            <button className="bg-transparent hover:bg-black text-black font-semibold hover:text-white py-2 px-3 border border-block-600 hover:border-transparent rounded-full">
+            <button className="bg-transparent hover:bg-black text-black font-semibold hover:text-white py-2 px-3 border border-gray-600 hover:border-transparent rounded-full">
               Login
             </button>
           </Link>
